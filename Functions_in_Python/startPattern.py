@@ -1,0 +1,8 @@
+lineNumber=int(input())
+i=lineNumber
+for i in range(lineNumber,0,-1):
+    for j in range(1,i+1):
+        print(j," ",end="")
+    print()
+    i=i-1
+
